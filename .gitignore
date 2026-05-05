@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Colab checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local data files
+data/raw/
+data/clean/
+data/intermediate/
+data/processed/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.xlsx
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.bin
+models/*.pt
+models/*.h5
+
+# Logs
+*.log
+
+# Environment files
+.env

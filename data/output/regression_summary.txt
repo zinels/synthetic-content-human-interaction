@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              h2h_ratio   R-squared:                       0.863
+Model:                            OLS   Adj. R-squared:                  0.851
+Method:                 Least Squares   F-statistic:                     67.88
+Date:                Wed, 29 Apr 2026   Prob (F-statistic):           5.15e-18
+Time:                        19:05:38   Log-Likelihood:                 58.617
+No. Observations:                  48   AIC:                            -107.2
+Df Residuals:                      43   BIC:                            -97.88
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                         1.2201      0.103     11.860      0.000       1.013       1.428
+C(subreddit)[T.AskDocs]          -0.1239      0.036     -3.416      0.001      -0.197      -0.051
+C(subreddit)[T.askscience]       -0.0928      0.058     -1.593      0.118      -0.210       0.025
+C(subreddit)[T.todayilearned]    -0.0725      0.064     -1.134      0.263      -0.202       0.056
+synthetic_prevalence             -1.4913      0.369     -4.037      0.000      -2.236      -0.746
+==============================================================================
+Omnibus:                        1.227   Durbin-Watson:                   1.862
+Prob(Omnibus):                  0.541   Jarque-Bera (JB):                1.214
+Skew:                          -0.277   Prob(JB):                        0.545
+Kurtosis:                       2.451   Cond. No.                         40.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

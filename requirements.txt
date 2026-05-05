@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+xgboost
+matplotlib
+seaborn
+statsmodels
+tqdm
+requests
+beautifulsoup4
+jupyter
+notebook
+ipykernel
